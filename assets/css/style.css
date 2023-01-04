@@ -19,7 +19,7 @@ a {
 .wrapper {
   width: 50%;
   padding: 4% 7% 2% 7%;
-
+margin: auto;
   background-color: rgb(99, 115, 138);
 }
 
@@ -60,18 +60,21 @@ p {
   position: absolute;
   left: 0;
   top: 50%;
+  width: 100%;
   background-color: rgb(212, 212, 212);
+  z-index: 1;
 }
 
 h2 {
   position: relative;
   margin: auto;
   padding: 0 5%;
-
   font-size: 38px;
   font-weight: normal;
   color: rgb(99, 99, 99);
   background-color: var(--backColor-wrapper__form);
+  width: auto;
+  z-index: 2;
 }
 
 .form__register__text {
